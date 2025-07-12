@@ -7,24 +7,18 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Tailwind CSS CDN -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <!-- Font Awesome CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body class="bg-gray-900 text-gray-200">
-  <!-- Navigation -->
-  <nav class=" absolute top-0 left-0 w-full z-50 px-4 py-3 flex items-center justify-between">
+<body class="bg-gray-900 text-gray-200"> <nav class="text-white absolute top-0 left-0 w-full z-50 px-4 py-3 flex items-center justify-between">
     <div class="flex items-center">
       <a href="index.html">
         <img src="images/old-logo.png" alt="R. Lux Homes Logo" class="h-10">
       </a>
     </div>
     <button class="md:hidden block" id="nav-toggle">
-      <i class="fas fa-bars text-2xl"></i>
-    </button>
-    <ul id="nav-menu" class="md:flex space-x-8 hidden md:static absolute top-16 left-0 w-full bg-gray-900 md:bg-transparent md:w-auto md:space-x-8 md:items-center z-50">
-      <li><a href="index.html" class="block px-4 py-2 hover:text-blue-400">HOME</a></li>
+      <i class="fas fa-bars text-2xl text-white"></i> </button>
+    <ul id="nav-menu" class="md:flex space-x-8 hidden md:static absolute top-16 left-0 w-full bg-gray-800 md:bg-transparent md:w-auto md:space-x-8 md:items-center z-50"> <li><a href="index.html" class="block px-4 py-2 hover:text-blue-400">HOME</a></li>
       <li><a href="portfolio.html" class="block px-4 py-2 hover:text-blue-400">PORTFOLIO</a></li>
       <li><a href="#about" class="block px-4 py-2 hover:text-blue-400">ABOUT</a></li>
       <li><a href="contact.html" class="block px-4 py-2 hover:text-blue-400">CONTACT</a></li>
@@ -42,90 +36,24 @@
     });
   </script>
 
-  <!-- Meet the Team Header -->
-  <header class="flex flex-col items-center justify-center pt-32 pb-12 bg-gray-100">
+  <header class="flex flex-col items-center justify-center pt-32 pb-12 bg-gray-800">
     <img src="images/old-logo.png" alt="R. Lux Homes LLC Logo" class="h-20 mb-4">
-    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-2 tracking-tight">Meet the Team</h1>
-    <p class="text-lg md:text-xl text-gray-700 text-center max-w-2xl mx-auto">
-      Our team is committed to delivering outstanding craftsmanship and thoughtful design with every project. Get to know the people who make R. Lux Homes LLC Orlando’s choice for luxury renovations.
+    <h1 class="text-4xl md:text-5xl font-bold text-white mb-2 tracking-tight">Meet the Team</h1> <p class="text-lg md:text-xl text-gray-300 text-center max-w-2xl mx-auto"> Our team is committed to delivering outstanding craftsmanship and thoughtful design with every project. Get to know the people who make R. Lux Homes LLC Orlando’s choice for luxury renovations.
     </p>
   </header>
 
-  <!-- Team Section -->
-  <section class="py-12 bg-white">
+  <section class="py-12 bg-gray-900">
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap justify-center gap-12">
-        <!-- Owner Card -->
-        <div class="flex flex-col items-center w-72 bg-gray-50 p-8 rounded-xl shadow-md">
-          <img src="images/image-coming-soon-placeholder.png" alt="David Rund - Owner" class="w-32 h-32 rounded-full mb-4 object-cover border-4 border-gray-200">
-          <h2 class="text-2xl font-semibold text-gray-900 mb-1 text-center">David Rund</h2>
-          <p class="text-blue-600 text-sm font-bold mb-2 text-center">Owner</p>
-          <p class="text-gray-700 text-center text-base">
-            David leads R. Lux Homes LLC with a passion for quality, detail, and client satisfaction. His vision shapes every project, ensuring that each renovation reflects both luxury and lasting value.
+        <div class="flex flex-col items-center w-72 bg-gray-800 p-8 rounded-xl shadow-md">
+          <img src="images/image-coming-soon-placeholder.png" alt="David Rund - Owner" class="w-32 h-32 rounded-full mb-4 object-cover border-4 border-gray-700"> <h2 class="text-2xl font-semibold text-white mb-1 text-center">David Rund</h2> <p class="text-blue-400 text-sm font-bold mb-2 text-center">Owner</p> <p class="text-gray-300 text-center text-base"> David leads R. Lux Homes LLC with a passion for quality, detail, and client satisfaction. His vision shapes every project, ensuring that each renovation reflects both luxury and lasting value.
           </p>
         </div>
 
-        <!-- Future Team Members (Commented Out) -->
-        <!--
-        <div class="flex flex-col items-center w-72 bg-gray-50 p-8 rounded-xl shadow-md">
-          <img src="image-coming-soon-placeholder.png" alt="Team Member" class="w-32 h-32 rounded-full mb-4 object-cover border-4 border-gray-200">
-          <h2 class="text-2xl font-semibold text-gray-900 mb-1 text-center">[Name]</h2>
-          <p class="text-blue-600 text-sm font-bold mb-2 text-center">Project Manager</p>
-          <p class="text-gray-700 text-center text-base">
-            [Short biography or role description for future team member.]
-          </p>
         </div>
-
-        <div class="flex flex-col items-center w-72 bg-gray-50 p-8 rounded-xl shadow-md">
-          <img src="image-coming-soon-placeholder.png" alt="Team Member" class="w-32 h-32 rounded-full mb-4 object-cover border-4 border-gray-200">
-          <h2 class="text-2xl font-semibold text-gray-900 mb-1 text-center">[Name]</h2>
-          <p class="text-blue-600 text-sm font-bold mb-2 text-center">Lead Designer</p>
-          <p class="text-gray-700 text-center text-base">
-            [Short biography or role description for future team member.]
-          </p>
-        </div>
-
-        <div class="flex flex-col items-center w-72 bg-gray-50 p-8 rounded-xl shadow-md">
-          <img src="image-coming-soon-placeholder.png" alt="Team Member" class="w-32 h-32 rounded-full mb-4 object-cover border-4 border-gray-200">
-          <h2 class="text-2xl font-semibold text-gray-900 mb-1 text-center">[Name]</h2>
-          <p class="text-blue-600 text-sm font-bold mb-2 text-center">Master Carpenter</p>
-          <p class="text-gray-700 text-center text-base">
-            [Short biography or role description for future team member.]
-          </p>
-        </div>
-
-        <div class="flex flex-col items-center w-72 bg-gray-50 p-8 rounded-xl shadow-md">
-          <img src="image-coming-soon-placeholder.png" alt="Team Member" class="w-32 h-32 rounded-full mb-4 object-cover border-4 border-gray-200">
-          <h2 class="text-2xl font-semibold text-gray-900 mb-1 text-center">[Name]</h2>
-          <p class="text-blue-600 text-sm font-bold mb-2 text-center">Administrative Coordinator</p>
-          <p class="text-gray-700 text-center text-base">
-            [Short biography or role description for future team member.]
-          </p>
-        </div>
-
-        <div class="flex flex-col items-center w-72 bg-gray-50 p-8 rounded-xl shadow-md">
-          <img src="image-coming-soon-placeholder.png" alt="Team Member" class="w-32 h-32 rounded-full mb-4 object-cover border-4 border-gray-200">
-          <h2 class="text-2xl font-semibold text-gray-900 mb-1 text-center">[Name]</h2>
-          <p class="text-blue-600 text-sm font-bold mb-2 text-center">Field Supervisor</p>
-          <p class="text-gray-700 text-center text-base">
-            [Short biography or role description for future team member.]
-          </p>
-        </div>
-
-        <div class="flex flex-col items-center w-72 bg-gray-50 p-8 rounded-xl shadow-md">
-          <img src="image-coming-soon-placeholder.png" alt="Team Member" class="w-32 h-32 rounded-full mb-4 object-cover border-4 border-gray-200">
-          <h2 class="text-2xl font-semibold text-gray-900 mb-1 text-center">[Name]</h2>
-          <p class="text-blue-600 text-sm font-bold mb-2 text-center">Client Liaison</p>
-          <p class="text-gray-700 text-center text-base">
-            [Short biography or role description for future team member.]
-          </p>
-        </div>
-        -->
-      </div>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="bg-gray-900 text-white py-6 mt-10">
     <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
       <div>
